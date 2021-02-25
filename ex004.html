@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: normal 20pt Lucida Console
+
+        
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = prompt ("Informe seu nome completo: ");
+        document.write(`Seu nome tem ${nome.length} letras`)
+        document.write (` e em caps fica ${nome.toUpperCase(nome)}`)<br>
+        document.write (` e em caps off fica ${nome.toLowerCase(nome)}`)
+
+        /* 
+        formatação de numeros:
+        -> nomeDaVar.toFixed(valor) 
+            >>> mostrar casas decimais
+        -> nomeDaVar.toFexed(valor).replace('','') 
+            >>> colocar entre '' o que substituir
+        -> nomeDaVar.toLocalString('pt-BR', {style: 'currency', currency: 'BRL'}) 
+            >>> formatacao moeda brasileira (pesquisar outros paises)
+        */
+    </script>
+</body>
+</html>
